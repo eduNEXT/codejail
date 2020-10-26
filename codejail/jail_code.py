@@ -82,13 +82,13 @@ if running_in_virtualenv:
 
 LIMITS = {
     # CPU seconds, defaulting to 1.
-    "CPU": 1,
+    "CPU": 2,
     # Real time, defaulting to 1 second.
-    "REALTIME": 1,
+    "REALTIME": 5,
     # Total process virutal memory, in bytes, defaulting to unlimited.
-    "VMEM": 0,
+    "VMEM": 1073741824,
     # Size of files creatable, in bytes, defaulting to nothing can be written.
-    "FSIZE": 0,
+    "FSIZE": 2097152,
     # The number of processes and threads to allow.
     "NPROC": 15,
     # Whether to use a proxy process or not.  None means use an environment
