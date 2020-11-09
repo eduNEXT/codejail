@@ -84,7 +84,7 @@ LIMITS = {
     # CPU seconds, defaulting to 1.
     "CPU": 2,
     # Real time, defaulting to 1 second.
-    "REALTIME": 5,
+    "REALTIME": 10,
     # Total process virutal memory, in bytes, defaulting to unlimited.
     "VMEM": 1073741824,
     # Size of files creatable, in bytes, defaulting to nothing can be written.
